@@ -1,6 +1,6 @@
 function makeid(l) {
   // write your code here
-	var res='';
+	var res=" ";
 	var charlist = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
 	for(var i=0;i<l;i++){
 		res+= charlist.charAt(
