@@ -1,11 +1,11 @@
 function makeid(l) {
   // write your code here
 	var res=" ";
-	var charlist = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+	var char_list = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
 	for(var i=0;i<l;i++){
-		res+= charlist.charAt(
+		res+= char_list.charAt(
 			Math.floor(
-				Math.random()*charlist.length;
+				Math.random()*char_list.length
 			)
 		)
 	}
